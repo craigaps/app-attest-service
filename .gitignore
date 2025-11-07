@@ -47,6 +47,9 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Mac
+.DS_Store
+
 # Optional npm cache directory
 .npm
 
@@ -64,11 +67,6 @@ web_modules/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variable files
-.env
-.env.*
-!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
